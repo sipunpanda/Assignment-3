@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+}
+body{
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: black;
+    height: 95px;
+    padding: 32px 65px;
+}
+.logo img{
+    margin-left: 20px;
+    /* height: 45%; */
+    /* width: 90px;    */
+    
+}
+.line{
+    width: 1px;
+    height: 65px;
+    background-color: #fff;
+    margin-left: 60px;
+}
+li,.logo{
+    cursor: pointer;
+}
+.list{
+    flex-grow: 1;
+    font-family: "Poppins";
+}
+.list ul{
+    display: flex;
+    color: white;
+    font-style: normal;
+    list-style: none;
+    gap: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    margin-left: 13px;
+    padding: 0 40px;
+
+}
+.btn button{
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 7px 28px;
+}
+                        /* hero */
+.hero{
+    text-align: center;
+}
+.text{
+  max-width: 846px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 172px;
+}
+
+.tagline{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero-btn button {
+    border-radius: 12px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    background:#ba0cc5 ;
+    border: none;
+    padding: 14px 22px;
+    margin-top: 64px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center; 
+  }
